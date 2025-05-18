@@ -67,18 +67,20 @@ Install the requirements
 4. `conda activate bike_1`
 5. including_k-bert_embeddings.ipynb
 6. hin_generation_new.ipynb
-7. `mkdir Data/results`
-8. `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
-9. `cp ../BiKE-SPHOTA/natuke_utils.py ./`
-10. natuke_utils.py
-11. knn_dynamic_benchmark.py
-12. `mkdir Data/metric_results`
-13. `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
-14. dynamic_benchmark_evaluation.py
-15. `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
-16. `cd Data/metric_results/`
-17. Final_Outputs.ipynb
-18. `conda deactivate`
+
+<b> Step 6 </b> Final Results and Evaluation
+1. `mkdir Data/results`
+2. `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
+3. `cp ../BiKE-SPHOTA/natuke_utils.py ./`
+4. natuke_utils.py
+5. knn_dynamic_benchmark.py
+6. `mkdir Data/metric_results`
+7. `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
+8. dynamic_benchmark_evaluation.py
+9. `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
+10. `cd Data/metric_results/`
+11. Final_Outputs.ipynb
+12. `conda deactivate`
 
 
 
