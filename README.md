@@ -11,9 +11,9 @@ Create a folder BiKE
 
 <b> Step 2 </b>
 Create Anaconda Environments
-1. `conda create -n bike_1 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running some natuke codes.
-2. `conda create -n bike_2 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running other natuke codes
-3. `conda create -n k_bert python=3.8` for running k-bert codes.
+1. `conda create --name bike_1 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running some natuke codes.
+2. `conda create --name bike_2 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running other natuke codes
+3. `conda create --name k_bert python=3.8` for running k-bert codes.
 
 <b> Step 3 </b>
 Install the requirements 
