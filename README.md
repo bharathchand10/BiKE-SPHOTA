@@ -3,6 +3,12 @@ Knowledge Graph Structure Prediction with a Hybrid Orientation of Textual Alignm
 
 <b> Step 1 </b>
 
+- Create a folder BiKE
+- `cd BiKE`  Change Directory to BiKE
+- `git clone https://github.com/AKSW/natuke.git`  Clone natuke repository for BiKE challenge data.
+- `git clone https://github.com/vincenzodeleo/kims-bert.git`  Clone kims-bert repository for K-BERT model.
+- `git clone https://github.com/bharathchand10/BiKE-SPHOTA.git`  Clone BiKE-SPHOTA repository for the edited codes to substitute.
+
 <b> Step 2 </b>
 
 <b> Step 3 </b>
