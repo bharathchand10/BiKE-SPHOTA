@@ -69,7 +69,7 @@ Install the requirements
 5. including_k-bert_embeddings.ipynb
 6. hin_generation_new.ipynb
 
-<b> Step 6 </b> Final Results and Evaluation
+<b> Step 7 </b> Final Results and Evaluation
 1. `mkdir Data/results`
 2. `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
 3. `cp ../BiKE-SPHOTA/natuke_utils.py ./`
