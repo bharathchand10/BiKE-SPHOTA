@@ -47,7 +47,7 @@ Install the requirements
 15. `rm -rf ../kims-bert/CODE/K-BERT/datasets/scholarly_dataset/*`
 16. `rm -rf ../kims-bert/CODE/K-BERT/brain/kgs/*`
 17. `cp ../BiKE-SPHOTA/phrases_and_triples.ipynb ./`
-18. phrases_and_triples.ipynb      - <i> (This code will generate outputs that are to be used for K-BERT code in the next step (in directories /kims-bert/CODE/K-BERT/datasets/scholarly_dataset/ and /kims-bert/CODE/K-BERT/brain/kgs/)) </i>
+18. phrases_and_triples.ipynb      -- <i> (This code will generate outputs that are to be used for K-BERT code in the next step (in directories /kims-bert/CODE/K-BERT/datasets/scholarly_dataset/ and /kims-bert/CODE/K-BERT/brain/kgs/)) </i>
 20. `conda deactivate`
 
 <b> Step 5 </b> K-BERT Embedding
@@ -57,7 +57,7 @@ Install the requirements
 4. `cp ../../../BiKE-SPHOTA/knowgraph.py ./brain/`
 5. Download models.tar.gz from https://drive.google.com/file/d/157KliIkO3iYf7a7TCNzVABvsK5jgSj_g/view?usp=sharing and uncompress it in this directory.
 6. `conda activate k_bert`
-7. `bash run.sh`
+7. `bash run.sh`    -- <i> (This code will generate outputs that are of K-BERT embedding in the directory /natuke/ with the name "embeddings.parquet". This will be used for the node embedding of Knowledge Graph in the next step) </i>
 8. `conda deactivate`
 
 <b> Step 6 </b> Creating Knowledge Graph
