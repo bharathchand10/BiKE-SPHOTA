@@ -48,7 +48,7 @@ Install the requirements
 16. `rm -rf ../kims-bert/CODE/K-BERT/brain/kgs/*`
 17. `cp ../BiKE-SPHOTA/phrases_and_triples.ipynb ./`
 18. phrases_and_triples.ipynb
-20. conda deactivate
+20. `conda deactivate`
 
 <b> Step 5 </b> 
 
