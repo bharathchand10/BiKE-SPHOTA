@@ -15,7 +15,7 @@ Create Anaconda Environments
 3. `conda create -n k_bert python=3.8 for running k-bert codes.
 
 <b> Step 3 </b>
-Install the requirements <br>
+Install the requirements 
 1. `cd natuke`
 2. `conda activate bike_1`
 3. `pip install -r requirements.txt`
