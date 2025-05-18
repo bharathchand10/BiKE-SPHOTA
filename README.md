@@ -10,10 +10,10 @@ Knowledge Graph Structure Prediction with a Hybrid Orientation of Textual Alignm
 - `git clone https://github.com/bharathchand10/BiKE-SPHOTA.git`  Clone BiKE-SPHOTA repository for the edited codes.
 
 <b> Step 2 </b>
-
-- `conda create -n bike_1 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  Create Anaconda repository for running some natuke codes.
-- `conda create -n bike_2 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  Create Anaconda repository for running other natuke codes
-- `conda create -n k_bert python=3.8 ipykernel notebook ipywidgets -c conda-forge`  Create Anaconda repository for running k-bert codes.
+Create Anaconda Environments
+- `conda create -n bike_1 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running some natuke codes.
+- `conda create -n bike_2 python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running other natuke codes
+- `conda create -n k_bert python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running k-bert codes.
 
 <b> Step 3 </b>
 
