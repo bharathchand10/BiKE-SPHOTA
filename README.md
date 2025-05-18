@@ -51,34 +51,34 @@ Install the requirements
 20. `conda deactivate`
 
 <b> Step 5 </b> K-BERT Embedding
-- `cd ../kims-bert/CODE/K-BERT/`
-- `cp ../../../BiKE-SPHOTA/run_kbert_cls.py ./`
-- `cp ../../../BiKE-SPHOTA/run.sh ./`
-- `cp ../../../BiKE-SPHOTA/knowgraph.py ./brain/`
-- Download models.tar.gz from https://drive.google.com/file/d/157KliIkO3iYf7a7TCNzVABvsK5jgSj_g/view?usp=sharing and uncompress it in this directory.
-- `conda activate k_bert`
-- `bash run.sh`
-- `conda deactivate`
+1. `cd ../kims-bert/CODE/K-BERT/`
+2. `cp ../../../BiKE-SPHOTA/run_kbert_cls.py ./`
+3. `cp ../../../BiKE-SPHOTA/run.sh ./`
+4. `cp ../../../BiKE-SPHOTA/knowgraph.py ./brain/`
+5. Download models.tar.gz from https://drive.google.com/file/d/157KliIkO3iYf7a7TCNzVABvsK5jgSj_g/view?usp=sharing and uncompress it in this directory.
+6. `conda activate k_bert`
+7. `bash run.sh`
+8. `conda deactivate`
 
 <b> Step 6 </b> Creating Knowledge Graph
-- `cd ../../../natuke/`
-- `cp ../BiKE-SPHOTA/including_k-bert_embeddings.ipynb ./`
-- `cp ../BiKE-SPHOTA/hin_generation_new.ipynb ./`
-- `conda activate bike_1`
-- including_k-bert_embeddings.ipynb
-- hin_generation_new.ipynb
-- `mkdir Data/results`
-- `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
-- `cp ../BiKE-SPHOTA/natuke_utils.py ./`
-- natuke_utils.py
-- knn_dynamic_benchmark.py
-- `mkdir Data/metric_results`
-- `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
-- dynamic_benchmark_evaluation.py
-- `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
-- `cd Data/metric_results/`
-- Final_Outputs.ipynb
-- `conda deactivate`
+1. `cd ../../../natuke/`
+2. `cp ../BiKE-SPHOTA/including_k-bert_embeddings.ipynb ./`
+3. `cp ../BiKE-SPHOTA/hin_generation_new.ipynb ./`
+4. `conda activate bike_1`
+5. including_k-bert_embeddings.ipynb
+6. hin_generation_new.ipynb
+7. `mkdir Data/results`
+8. `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
+9. `cp ../BiKE-SPHOTA/natuke_utils.py ./`
+10. natuke_utils.py
+11. knn_dynamic_benchmark.py
+12. `mkdir Data/metric_results`
+13. `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
+14. dynamic_benchmark_evaluation.py
+15. `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
+16. `cd Data/metric_results/`
+17. Final_Outputs.ipynb
+18. `conda deactivate`
 
 
 
