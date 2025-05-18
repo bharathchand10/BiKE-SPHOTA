@@ -17,10 +17,18 @@ Create Anaconda Environments
 <b> Step 3 </b>
 Install the requirements <br>
 - cd natuke
-- <span style="color:red">This text is red.</span> <br>
+- conda activate bike_1
 - pip install -r requirements.txt
-- clean_pdfs.ipynb: load pdfs considering database and prepare two dataframes to be used further;
-- phrases_flow.py: load texts dataframe and separate the texts into 512 tokens phrases;
+<br>
+- conda deactivate
+- conda activate bike_2
+- pip install -r requirements_topic_cuda.txt <b> OR </b> pip install -r requirements_topic.txt
+- conda deactivate
+<br>
+cd ../kims-bert/CODE/K-BERT
+- conda activate k_bert
+- pip install -r requirements.txt
+- conda deactivate
 
 
 
