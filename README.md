@@ -17,7 +17,7 @@ Create Anaconda Environments
 <b> Step 3 </b>
 Install the requirements <br>
 - cd natuke
-- <span style="color:green">conda activate bike_1</span> <br>
+- <span style="color:red">This text is red.</span> <br>
 - pip install -r requirements.txt
 - clean_pdfs.ipynb: load pdfs considering database and prepare two dataframes to be used further;
 - phrases_flow.py: load texts dataframe and separate the texts into 512 tokens phrases;
