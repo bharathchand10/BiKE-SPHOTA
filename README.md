@@ -72,8 +72,8 @@ Install the requirements
 1. `mkdir Data/results`
 2. `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
 3. `cp ../BiKE-SPHOTA/natuke_utils.py ./`
-4. natuke_utils.py
-5. knn_dynamic_benchmark.py
+4. natuke_utils.py -- <i> (In this code, the K-BERT associated regularization is written in the function regularization_2) </i>
+5. knn_dynamic_benchmark.py -- <i> (This code is also edited to call the regularization_2 function) </i>
 6. `mkdir Data/metric_results`
 7. `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
 8. dynamic_benchmark_evaluation.py
