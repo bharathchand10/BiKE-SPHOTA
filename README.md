@@ -2,8 +2,7 @@
 Knowledge Graph Structure Prediction with a Hybrid Orientation of Textual Alignment
 
 <b> Step 1 </b>
-
-- Create a folder BiKE
+Create a folder BiKE
 - `cd BiKE`  Change Directory to BiKE
 - `git clone https://github.com/AKSW/natuke.git`  Clone natuke repository for BiKE challenge data.
 - `git clone https://github.com/vincenzodeleo/kims-bert.git`  Clone kims-bert repository for K-BERT model.
@@ -16,6 +15,15 @@ Create Anaconda Environments
 - `conda create -n k_bert python=3.8 ipykernel notebook ipywidgets -c conda-forge`  for running k-bert codes.
 
 <b> Step 3 </b>
+Install the requirements <br>
+- cd natuke
+- <span style="color:green">conda activate bike_1</span> <br>
+- pip install -r requirements.txt
+- clean_pdfs.ipynb: load pdfs considering database and prepare two dataframes to be used further;
+- phrases_flow.py: load texts dataframe and separate the texts into 512 tokens phrases;
+
+
+
 
 <b> Step 4 </b>
 
