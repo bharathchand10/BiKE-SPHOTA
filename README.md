@@ -3,7 +3,7 @@ Knowledge Graph Structure Prediction with a Hybrid Orientation of Textual Alignm
 
 <b> Step 1 </b>
 Create a folder BiKE
-1. `cd BiKE`  Change Directory to BiKE
+1. `cd BiKE/`  Change Directory to BiKE
 2. `git clone https://github.com/AKSW/natuke.git`  Clone natuke repository for BiKE challenge data.
 3. `git clone https://github.com/vincenzodeleo/kims-bert.git`  Clone kims-bert repository for K-BERT model.
 4. `git clone https://github.com/bharathchand10/BiKE-SPHOTA.git`  Clone BiKE-SPHOTA repository for the edited codes.
@@ -16,7 +16,7 @@ Create Anaconda Environments
 
 <b> Step 3 </b>
 Install the requirements 
-1. `cd natuke`
+1. `cd natuke/`
 2. `conda activate bike_1`
 3. `pip install -r requirements.txt`
   
@@ -25,13 +25,13 @@ Install the requirements
 6. `pip install -r requirements_topic_cuda.txt` <b>  OR  </b> `pip install -r requirements_topic.txt`
 7. `conda deactivate`
   
-8. `cd ../kims-bert/CODE/K-BERT`
+8. `cd ../kims-bert/CODE/K-BERT/`
 9. `conda activate k_bert`
 10. `pip install -r requirements.txt`
 11. `conda deactivate`
 
 <b> Step 4 </b> Generate Phrases, Entities and Triples
-1. `cd ../../../natuke`
+1. `cd ../../../natuke/`
 2. `mkdir Data`
 3. `cp ../BiKE-SPHOTA/flat-data.csv ./Data/`
 4. `cp ../BiKE-SPHOTA/smiles_name.csv ./Data/`
@@ -50,18 +50,36 @@ Install the requirements
 18. phrases_and_triples.ipynb
 20. `conda deactivate`
 
-<b> Step 5 </b> 
+<b> Step 5 </b> K-BERT Embedding
+- `cd ../kims-bert/CODE/K-BERT/`
+- `cp ../../../BiKE-SPHOTA/run_kbert_cls.py ./`
+- `cp ../../../BiKE-SPHOTA/run.sh ./`
+- `cp ../../../BiKE-SPHOTA/knowgraph.py ./brain/`
+- Download models.tar.gz from https://drive.google.com/file/d/157KliIkO3iYf7a7TCNzVABvsK5jgSj_g/view?usp=sharing and uncompress it in this directory.
+- `conda activate k_bert`
+- `bash run.sh`
+- `conda deactivate`
+
+<b> Step 6 </b> Creating Knowledge Graph
+- `cd ../../../natuke/`
+- `cp ../BiKE-SPHOTA/including_k-bert_embeddings.ipynb ./`
+- `cp ../BiKE-SPHOTA/hin_generation_new.ipynb ./`
+- `conda activate bike_1`
+- including_k-bert_embeddings.ipynb
+- hin_generation_new.ipynb
+- `mkdir Data/results`
+- `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
+- `cp ../BiKE-SPHOTA/natuke_utils.py ./`
+- natuke_utils.py
+- knn_dynamic_benchmark.py
+- `mkdir Data/metric_results`
+- `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
+- dynamic_benchmark_evaluation.py
+- `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
+- `cd Data/metric_results/`
+- Final_Outputs.ipynb
+- `conda deactivate`
 
 
-
-<b> Step 6 </b>
-
-<b> Step 7 </b>
-
-<b> Step 8 </b>
-
-<b> Step 9 </b>
-
-<b> Step 10 </b>
 
 
