@@ -36,7 +36,7 @@ Install the requirements
 2. `mkdir Data`
 3. `cp ../BiKE-SPHOTA/flat-data.csv ./Data/`
 4. `cp ../BiKE-SPHOTA/smiles_name.csv ./Data/`
-5. `mkdir ./Data/pdfs` -- <i> (This is the folder from which the given pdfs are taken) </i>
+5. `mkdir ./Data/pdfs` -- <i> (This is the folder from which the pdf inputs are taken) </i>
 6. `conda activate bike_1`
 7. change path = 'path-to-data-repository' to path = 'Data/' in all files
 8. clean-pdfs.ipynb
