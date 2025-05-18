@@ -30,7 +30,7 @@ Install the requirements
 10. `pip install -r requirements.txt`
 11. `conda deactivate`
 
-<b> Step 4 </b> Generate Embeddings
+<b> Step 4 </b> Generate Phrases, Entities and Triples
 1. `cd ../../../natuke`
 2. `mkdir Data`
 3. `cp ../BiKE-SPHOTA/flat-data.csv ./Data/`
@@ -48,11 +48,11 @@ Install the requirements
 16. `rm -rf ../kims-bert/CODE/K-BERT/brain/kgs/*`
 17. `cp ../BiKE-SPHOTA/phrases_and_triples.ipynb ./`
 18. phrases_and_triples.ipynb
-19. 
+20. conda deactivate
+
+<b> Step 5 </b> 
 
 
-
-<b> Step 5 </b>
 
 <b> Step 6 </b>
 
