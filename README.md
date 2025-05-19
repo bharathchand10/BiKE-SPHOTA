@@ -44,8 +44,8 @@ Install the requirements
 12. `conda activate bike_2`
 13. topic_generation.ipynb
 14. topic_distribution.ipynb
-15. `rm -rf ../kims-bert/CODE/K-BERT/datasets/scholarly_dataset/*`
-16. `rm -rf ../kims-bert/CODE/K-BERT/brain/kgs/*`
+15. `rm -rf ../kims-bert/CODE/K-BERT/datasets/scholarly_dataset/*`  -- <i> (Cleaning this directory by removing all the existing files here) </i>
+16. `rm -rf ../kims-bert/CODE/K-BERT/brain/kgs/*`  -- <i> (Cleaning this directory by removing all the existing files here) </i>
 17. `cp ../BiKE-SPHOTA/phrases_and_triples.ipynb ./`
 18. phrases_and_triples.ipynb      -- <i> (This code will generate outputs that are to be used for K-BERT code in the next step (in directories /kims-bert/CODE/K-BERT/datasets/scholarly_dataset/ AND /kims-bert/CODE/K-BERT/brain/kgs/)) </i>
 20. `conda deactivate`
