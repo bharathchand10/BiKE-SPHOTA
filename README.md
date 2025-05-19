@@ -74,15 +74,14 @@ Install the requirements
 2. `mkdir Data/results`
 3. `cp ../BiKE-SPHOTA/knn_dynamic_benchmark.py ./`
 4. `cp ../BiKE-SPHOTA/natuke_utils.py ./`
-5. natuke_utils.py -- <i> (In this code, the K-BERT associated regularization is written in the function regularization_2) </i>
-6. knn_dynamic_benchmark.py -- <i> (This code is also edited to call the regularization_2 function) </i>
-7. `mkdir Data/metric_results`
-8. `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
-9. dynamic_benchmark_evaluation.py
-10. `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
-11. `cd Data/metric_results/`
-12. Final_Outputs.ipynb
-13. `conda deactivate`
+5. knn_dynamic_benchmark.py -- <i> (This code is edited to call the regularization_2 function from the edited code </i> <i> natuke_utils.py</i> <i> where K-BERT associated regularization is written in the function regularization_2) </i>
+6. `mkdir Data/metric_results`
+7. `cp ../BiKE-SPHOTA/dynamic_benchmark_evaluation.py ./`
+8. dynamic_benchmark_evaluation.py
+9. `cp ../BiKE-SPHOTA/Final_Outputs.ipynb ./Data/metric_results/`
+10. `cd Data/metric_results/`
+11. Final_Outputs.ipynb
+12. `conda deactivate`
 
 
 
