@@ -57,7 +57,7 @@ Install the requirements
 4. `cp ../../../BiKE-SPHOTA/knowgraph.py ./brain/`
 5. Download models.tar.gz from https://drive.google.com/file/d/157KliIkO3iYf7a7TCNzVABvsK5jgSj_g/view?usp=sharing and uncompress it in this directory.
 6. `conda activate k_bert`
-7. `bash run.sh`    -- <i> (This code will generate outputs that are of K-BERT embedding in the directory /natuke/ with the name "embeddings.parquet". This will be used for the node embedding of Knowledge Graph in the next step) </i>
+7. `bash run.sh`    -- <i> (This code will generate outputs that are of K-BERT embedding in the directory /natuke/ with the name "embeddings.parquet". This will be used for the node embedding of Knowledge Graph in the next step. Ignore the errors after "Embedding extraction completed." and "Saving embeddings to embeddings.parquet") </i>
 8. `conda deactivate`
 
 <b> Step 6 </b> Creating Knowledge Graph
