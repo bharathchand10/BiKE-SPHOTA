@@ -38,9 +38,9 @@ Install the requirements
 4. `cp ../BiKE-SPHOTA/smiles_name.csv ./Data/`
 5. `mkdir ./Data/pdfs` -- <i> (This is the folder from which the pdf inputs are taken) </i>
 6. `conda activate bike_1`
-7. change path = 'path-to-data-repository' to path = 'Data/' in all files
 8. clean-pdfs.ipynb
-9. phrase_flow.py
+9. change - path = 'path-to-data-repository' to path = 'Data/' AND 'query03-05.csv' to 'flat-data.csv'.
+10. phrase_flow.py
 11. `conda deactivate`
 12. `conda activate bike_2`
 13. topic_generation.ipynb
