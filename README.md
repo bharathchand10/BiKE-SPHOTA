@@ -66,7 +66,7 @@ Install the requirements
 3. `cp ../BiKE-SPHOTA/hin_generation_new.ipynb ./`
 4. `conda activate bike_2`
 5. including_k-bert_embeddings.ipynb
-6. hin_generation_new.ipynb
+6. hin_generation_new.ipynb  -- <i> (This is a modified code. not be confused with original </i> hin_generation.ipynb <i> for execution) </i>
 7. `conda deactivate`
 
 <b> Step 7 </b> Final Results and Evaluation
