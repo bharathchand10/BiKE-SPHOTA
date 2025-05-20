@@ -1,6 +1,6 @@
 # BiKE-SPHOTA
 Knowledge Graph Structure Prediction with a Hybrid Orientation of Textual Alignment. </br>
-This repository contains the edited files from other repositories natuke and kims-bert along with some additional new codes. After cloning these three repositories, those codes are need to be copied to their corresponding directories. This will replace the original codes with the edited codes of modification <i> (These steps are included with cp command in the instructions below). <i> The errors that may occur during the requirements installation step is fixed using the methods written in  installation_errors_fixing.pdf . Some of these errors are system/environment/package specific and may not occur in appropriate setups. In such case, you can follow the flow of execution given below without interruption.
+This repository contains the edited files from other repositories natuke and kims-bert along with some additional new codes. After cloning these three repositories, those codes are need to be copied to their corresponding directories. This will replace the original codes with the edited codes of modification <i> (These steps are included with cp command in the instructions below). </i> The errors that may occur during the requirements installation step is fixed using the methods written in  installation_errors_fixing.pdf . Some of these errors are system/environment/package specific and may not occur in appropriate setups. In such case, you can follow the flow of execution given below without interruption.
 
 <b> Step 1 </b>
 Create a folder BiKE
