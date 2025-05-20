@@ -20,16 +20,19 @@ Install the requirements
 1. `cd natuke/`
 2. `conda activate bike_1`
 3. `pip install -r requirements.txt`
+4. `cd GraphEmbeddings/`
+5. `python setup.py install`
+6. `cd ../`
   
-4. `conda deactivate`
-5. `conda activate bike_2`
-6. `pip install -r requirements_topic_cuda.txt` <b>  OR  </b> `pip install -r requirements_topic.txt`
 7. `conda deactivate`
+8. `conda activate bike_2`
+9. `pip install -r requirements_topic_cuda.txt` <b>  OR  </b> `pip install -r requirements_topic.txt`
+10. `conda deactivate`
   
-8. `cd ../kims-bert/CODE/K-BERT/`
-9. `conda activate k_bert`
-10. `pip install -r requirements.txt`
-11. `conda deactivate`
+11. `cd ../kims-bert/CODE/K-BERT/`
+12. `conda activate k_bert`
+13. `pip install -r requirements.txt`
+14. `conda deactivate`
 
 <b> Step 4 </b> Generate Phrases, Entities and Triples
 1. `cd ../../../natuke/`
